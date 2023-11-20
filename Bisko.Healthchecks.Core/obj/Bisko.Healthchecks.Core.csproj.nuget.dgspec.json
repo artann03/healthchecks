@@ -1,0 +1,145 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\artan\\source\\repos\\Bisko.Healthchecks\\Bisko.Healthchecks.Core\\Bisko.Healthchecks.Core.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\artan\\source\\repos\\Bisko.Healthchecks\\Bisko.Healthchecks.Core\\Bisko.Healthchecks.Core.csproj": {
+      "version": "5.0.9",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\artan\\source\\repos\\Bisko.Healthchecks\\Bisko.Healthchecks.Core\\Bisko.Healthchecks.Core.csproj",
+        "projectName": "Bisko.Healthchecks.Core",
+        "projectPath": "C:\\Users\\artan\\source\\repos\\Bisko.Healthchecks\\Bisko.Healthchecks.Core\\Bisko.Healthchecks.Core.csproj",
+        "packagesPath": "C:\\Users\\artan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\artan\\source\\repos\\Bisko.Healthchecks\\Bisko.Healthchecks.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\artan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Users\\artan\\source\\repos\\Bisko.Healthchecks\\Bisko.Healthchecks.Core\\bin\\Debug": {},
+          "C:\\Users\\artan\\source\\repos\\Bisko.Messaging.Model\\Bisko.Messaging.Model\\bin\\Debug": {},
+          "C:\\Users\\artan\\source\\repos\\Bisko.Messaging\\Bisko.Messaging.Core\\bin\\Debug": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AspNetCore.HealthChecks.Kafka": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "AspNetCore.HealthChecks.Network": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "AspNetCore.HealthChecks.NpgSql": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "AspNetCore.HealthChecks.Redis": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "AspNetCore.HealthChecks.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "AspNetCore.HealthChecks.UI": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "AspNetCore.HealthChecks.UI.Client": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "AspNetCore.HealthChecks.UI.Core": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "AspNetCore.HealthChecks.UI.InMemory.Storage": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "AspNetCore.HealthChecks.UI.PostgreSQL.Storage": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Bisko.Messaging.Core": {
+              "target": "Package",
+              "version": "[25.0.1, )"
+            },
+            "CassandraCSharpDriver": {
+              "target": "Package",
+              "version": "[3.17.1, )"
+            },
+            "ClickHouse.Ado": {
+              "target": "Package",
+              "version": "[2.0.2.2, )"
+            },
+            "Google.Cloud.BigQuery.V2": {
+              "target": "Package",
+              "version": "[3.5.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Diagnostics.HealthChecks": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Octonica.ClickHouseClient": {
+              "target": "Package",
+              "version": "[2.2.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Bisko.Healthchecks.Core</id>
+    <version>5.0.1</version>
+    <authors>Bisko.Healthchecks.Core</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net5.0">
+        <dependency id="AspNetCore.HealthChecks.Kafka" version="5.0.1" exclude="Build,Analyzers" />
+        <dependency id="AspNetCore.HealthChecks.Network" version="5.0.4" exclude="Build,Analyzers" />
+        <dependency id="AspNetCore.HealthChecks.NpgSql" version="5.0.2" exclude="Build,Analyzers" />
+        <dependency id="AspNetCore.HealthChecks.SqlServer" version="5.0.3" exclude="Build,Analyzers" />
+        <dependency id="AspNetCore.HealthChecks.UI" version="5.0.1" exclude="Build,Analyzers" />
+        <dependency id="AspNetCore.HealthChecks.UI.Client" version="5.0.1" exclude="Build,Analyzers" />
+        <dependency id="AspNetCore.HealthChecks.UI.Core" version="5.0.1" exclude="Build,Analyzers" />
+        <dependency id="AspNetCore.HealthChecks.UI.InMemory.Storage" version="5.0.1" exclude="Build,Analyzers" />
+        <dependency id="AspNetCore.HealthChecks.UI.PostgreSQL.Storage" version="5.0.1" exclude="Build,Analyzers" />
+        <dependency id="Bisko.Messaging.Core" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="CassandraCSharpDriver" version="3.17.1" exclude="Build,Analyzers" />
+        <dependency id="ClickHouse.Ado" version="2.0.2.2" exclude="Build,Analyzers" />
+        <dependency id="Google.Cloud.BigQuery.V2" version="3.5.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.DependencyInjection" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Diagnostics.HealthChecks" version="5.0.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions" version="5.0.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\artan\source\repos\Bisko.Healthchecks\Bisko.Healthchecks.Core\bin\Debug\net5.0\Bisko.Healthchecks.Core.runtimeconfig.json" target="lib\net5.0\Bisko.Healthchecks.Core.runtimeconfig.json" />
+    <file src="C:\Users\artan\source\repos\Bisko.Healthchecks\Bisko.Healthchecks.Core\bin\Debug\net5.0\Bisko.Healthchecks.Core.dll" target="lib\net5.0\Bisko.Healthchecks.Core.dll" />
+  </files>
+</package>
